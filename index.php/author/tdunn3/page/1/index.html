@@ -23,7 +23,36 @@
 <script type='text/javascript' src='https://uco-hpc.github.io/Website-static/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2' id='jquery-migrate-js'></script>
 <link rel="https://api.w.org/" href="https://uco-hpc.github.io/Website-static/index.php/wp-json/" /><link rel="alternate" type="application/json" href="https://uco-hpc.github.io/Website-static/index.php/wp-json/wp/v2/users/1" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://uco-hpc.github.io/Website-static/xmlrpc.php?rsd" />
 <meta name="generator" content="WordPress 5.8.1" />
-</head>
+		<style type="text/css" id="wp-custom-css">
+			/* Adjust button */
+	.custom-menu-button a{
+		color: #ffffff;  		/* Text color */
+		background-color: #38b6ff; 	/* Btn bg color */
+		padding: 10px 10px; 		/* Space around text */
+		//border-radius: 4px; 		/* higher number = rounded corners */
+		border: solid #000000 0px; 	/* Border color & thickness */
+		//max-height: 40px; 		/* Max height of button */
+	}
+
+/* Adjust icon */
+	.custom-menu-button a:before{
+		content: '⚙️'; 		/* Change icon here */
+		margin-right:5px; 		/* space between icon & text on right */
+	}
+
+/* Adjust button on hover or remove the whole thing */
+	.custom-menu-button a:hover{
+		color: #ffffff; 		/* Hover color */
+		background-color: #35a8ea; 	/* Btn hover bg color */
+		border: solid #000 0px; 	/* Hover border color & thickness */
+	}
+
+/* Remove default hover on links*/
+	.custom-menu-button:hover{
+		text-decoration: none;
+		color:#fff!important;
+	}		</style>
+		</head>
 
 <body class="archive author author-tdunn3 author-1 wp-embed-responsive site-layout-fluid global-layout-right-sidebar">
 
@@ -76,10 +105,10 @@
             <div class="wrap-menu-content">
 				<div class="menu-main-naviation-container"><ul id="primary-menu" class="menu"><li id="menu-item-30" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-30"><a href="https://uco-hpc.github.io/Website-static/">Home</a></li>
 <li id="menu-item-38" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-38"><a href="https://uco-hpc.github.io/Website-static/index.php/about/">About</a></li>
-<li id="menu-item-46" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-46"><a href="https://uco-hpc.github.io/Website-static/index.php/wiki/">Wiki</a></li>
+<li id="menu-item-61" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-61"><a href="https://buddy-docs.readthedocs.io/en/latest/">Wiki</a></li>
 <li id="menu-item-49" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-49"><a href="https://uco-hpc.github.io/Website-static/index.php/formstemp/">Forms(temp)</a></li>
 <li id="menu-item-40" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-40"><a href="https://uco-hpc.github.io/Website-static/index.php/software/">Software</a></li>
-<li id="menu-item-42" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-42"><a href="https://uco-hpc.github.io/Website-static/index.php/access-buddy/">Access Buddy</a></li>
+<li id="menu-item-62" class="custom-menu-button menu-item menu-item-type-custom menu-item-object-custom menu-item-62"><a href="https://buddy.uco.edu">Access Buddy</a></li>
 </ul></div>            </div><!-- .menu-content -->
         </nav><!-- #site-navigation -->
        </div> <!-- .container -->

@@ -1272,6 +1272,72 @@ object {
     max-width: 100%;
 }
 
+.software {
+    margin-left:0px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.software table {
+    width:830px;
+    border-collapse:separate;
+}
+
+.software table tr td{
+    border-width:0px;
+    border-top:1px solid #dee2e6;
+}
+
+.software table .odd td{
+    background-color:#f2f2f2;
+}
+
+.software table .even td{
+    background-color:#fff;
+}
+
+.software table tr .software-desc{
+    width:0.01%
+}
+
+.software table tr td div {
+    width: 580px;
+    float:right;
+    text-align: justify;
+    text-justify:left;
+    margin-right:20px;
+    margin-top:10px;
+}
+
+.software table tr td div .software-title{
+    display:inline;
+    font-size:1.1rem;
+    color:var(--primary-blue);i
+}
+.software table tr td div .software-version{
+    display:inline;
+    padding-left:5px;
+    color:#6c757d;
+}
+
+.software table tr td div p{ 
+    padding-top:10px;
+    color:#333333;
+}
+
+.software table tr td i{
+    text-align:center;
+    font-size:3.5rem;
+}
+
+.software table tr td img {
+    width: 100px;
+    height: 100px;
+    float:center;
+    margin:20px;
+}
+
 /*--------------------------------------------------------------
 ## Captions
 --------------------------------------------------------------*/
@@ -3212,7 +3278,6 @@ form.wpcf7-form input[type="email"],
 form.wpcf7-form input[type="url"] {
     width: 100%;
 }
-
 
 /*--------------------------------------------------------------
 ### Custom Basic Breadcrumb  Style By WEN Themes
